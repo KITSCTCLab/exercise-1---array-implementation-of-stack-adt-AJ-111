@@ -1,9 +1,9 @@
 import os
 class Stack:
-    def __init__(self, size):
+    def __init__(self, size, top):
         self.items = []
         self.size = size
-        self.top = -1
+        self.top = top
 
     def is_empty(self):
         if(self.top = -1):
