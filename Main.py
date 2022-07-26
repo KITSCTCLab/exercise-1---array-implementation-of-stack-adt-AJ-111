@@ -24,7 +24,7 @@ class Stack:
             self.stack.pop()
 
     def status(self):
-        # Write code here
+        print(
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
